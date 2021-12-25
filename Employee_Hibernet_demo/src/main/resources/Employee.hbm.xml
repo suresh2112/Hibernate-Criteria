@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "com.createiq.employee.mode.Employee" table = "EMP_TAB">
+      
+      <id name = "eid" type = "int" column = "emp_id">
+      </id>
+      
+      <property name = "ename" column = "emp_name" type = "string"/>
+      <property name = "esal" column = "emp_sal" type = "double"/>
+      
+   </class>
+</hibernate-mapping>
